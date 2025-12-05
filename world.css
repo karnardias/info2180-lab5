@@ -1,1 +1,119 @@
-/* Add your own styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    text-align: center;
+}
+body {
+    background: #f5f9fc;
+    color:black;
+}
+
+header {
+    background: rgb(65, 65, 94);     
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+    display: flex;              
+    align-items: center;      
+    justify-content: center;  
+    gap: 20px; 
+}
+
+header h1 {
+    font-family:georgia,cursive;
+    font-size: 36px;
+    font-weight: 800;
+    color:white;
+    margin:0;
+}
+#headerimg{
+    height:80px;
+    width:80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#controls {
+    display: inline-block;
+}
+
+#controls label {
+    font-size: 16px;
+    margin: 10px;
+}
+
+#country {
+    margin-top: 40px;
+    max-width:700px;
+    min-width:400px;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    font-size: 15px;
+    outline: none;
+}
+
+#country:focus {
+    border-color: #3d8bff;
+}
+
+#search-container {
+  width: 100%; 
+  display: flex;
+  margin: 40px;    
+  text-align: center;  
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  gap: 12px;           
+}
+
+#lookupcountry, #lookupcity {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+}
+
+#lookupcountry {
+  background: rgb(77, 182, 77);
+}
+#lookupcountry:hover {
+  background: rgb(95, 139, 95);
+}
+#lookupcity {
+  background: rgb(29, 109, 228);
+}
+#lookupcity:hover {
+  background: rgb(68, 112, 179);
+}
+
+
+
+#result table {
+    margin: 20px auto; 
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+}
+
+#result th, #result td {
+    padding: 8px 12px;
+    border: 1px solid gray;
+}
+
+
+
